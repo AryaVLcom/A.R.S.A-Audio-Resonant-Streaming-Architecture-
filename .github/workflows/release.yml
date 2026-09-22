@@ -71,11 +71,21 @@ jobs:
         run: |
           ./gradlew assembleUniversalGmsRelease --no-configuration-cache --console=plain --warning-mode summary -x lint
 
-      - name: Upload APK to Release
+      - name: Upload APK to Public Distribution Repo
         env:
-          GH_TOKEN: ${{ github.token }}
+          # This PAT must have `repo` scope on AryaVLcom/A.R.S.A-Audio-Resonant-Streaming-Architecture-
+          GH_TOKEN: ${{ secrets.DIST_REPO_TOKEN }}
         run: |
           TAG="${{ github.event.inputs.tag || github.ref_name }}"
           APK_PATH=$(find app/build/outputs/apk -name '*.apk' | head -n 1)
           mv "$APK_PATH" "arsa-${TAG}.apk"
-          gh release upload "$TAG" "arsa-${TAG}.apk" --repo "${{ github.repository }}" --clobber
+
+          # Ensure the release exists in the distribution repo, then upload
+          gh release view "$TAG" --repo "AryaVLcom/A.R.S.A-Audio-Resonant-Streaming-Architecture-" \
+            || gh release create "$TAG" --repo "AryaVLcom/A.R.S.A-Audio-Resonant-Streaming-Architecture-" \
+               --title "ARSA ${TAG}" \
+               --notes "ARSA ${TAG} — Universal APK release."
+
+          gh release upload "$TAG" "arsa-${TAG}.apk" \
+            --repo "AryaVLcom/A.R.S.A-Audio-Resonant-Streaming-Architecture-" \
+            --clobber
