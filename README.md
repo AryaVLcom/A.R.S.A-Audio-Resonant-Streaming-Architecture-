@@ -11,8 +11,6 @@ No account. No ads. No limits.
 <br>
 
 [![Download](https://img.shields.io/badge/⬇_Download_APK-v1.5.4-black?style=for-the-badge)](https://download.app.aryavl.com)
-&nbsp;
-[![Discord](https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/Ejeb4cmzfd)
 
 </div>
 
@@ -30,6 +28,6 @@ Requires Android 8.0 or higher.
 
 <div align="center">
 
-[aryavl.com](https://aryavl.com) &nbsp;·&nbsp; [Discord](https://discord.gg/Ejeb4cmzfd) &nbsp;·&nbsp; [Ko-fi](https://ko-fi.com/cosmictaser)
+[aryavl.com](https://aryavl.com)
 
 </div>
