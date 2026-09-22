@@ -1,0 +1,122 @@
+A.R.S.A PROPRIETARY SOFTWARE LICENSE
+
+Version 1.0 — 2026
+
+Copyright (c) 2026 Arya VL (aryavl.com). All Rights Reserved.
+
+PLEASE READ THIS LICENSE AGREEMENT CAREFULLY BEFORE USING, COPYING, OR DISTRIBUTING THIS SOFTWARE. BY ACCESSING OR USING A.R.S.A IN ANY FORM, YOU AGREE TO BE BOUND BY THE TERMS OF THIS LICENSE.
+
+1. DEFINITIONS
+
+“Software” refers to ARSA (Audio Resonant Streaming Architecture), including all source code, object code, compiled binaries, assets, design resources, documentation, configuration files, APIs, and any other materials contained in this repository or distributed with or as part of ARSA.
+
+“Author” refers to Arya VL, the sole copyright holder of the Software.
+
+“User” refers to any individual or entity that accesses, installs, or uses the Software.
+
+“AryaOS” refers to the broader ecosystem of software and services operated by the Author under the aryavl.com domain.
+
+2. OWNERSHIP
+
+The Software is and remains the exclusive property of the Author. No ownership rights are transferred to any User under this License.
+
+All rights not expressly granted herein are reserved by the Author.
+
+3. GRANT OF LICENSE
+
+Subject to compliance with this Agreement, the Author grants Users a limited, non-exclusive, non-transferable, revocable license to:
+
+a) Install and use the compiled Software on personal devices for personal, non-commercial purposes.
+
+b) Access official services associated with the Software (including app.aryavl.com) solely for personal use, where available.
+
+No rights are granted to the source code under this License.
+
+4. RESTRICTIONS
+
+Users shall NOT, and shall not permit others to:
+
+a) COPYING & DISTRIBUTION
+Copy, reproduce, publish, distribute, sublicense, sell, rent, lease, or otherwise make the Software available to any third party.
+
+b) MODIFICATION
+Modify, adapt, translate, or create derivative works of the Software.
+
+c) FORKING & DERIVATIVES
+Create public forks, derivative repositories, or derivative products based on the Software without prior written permission from the Author.
+
+d) REVERSE ENGINEERING
+Reverse engineer, decompile, disassemble, or attempt to derive source code from any part of the Software.
+
+e) COMMERCIAL USE
+Use the Software or any part of it for commercial purposes, including resale, SaaS replication, or integration into commercial products, without explicit written permission.
+
+f) BRAND MISUSE
+Remove, alter, or obscure any branding, copyright notices, trademarks, or attribution associated with the Software.
+
+g) AUTOMATED ACCESS
+Use bots, scrapers, or automated systems to extract data, APIs, logic, or functionality outside intended use.
+
+h) SECURITY BYPASS
+Circumvent, disable, or interfere with any security, authentication, licensing, or access control systems.
+
+5. INTELLECTUAL PROPERTY
+
+All rights, title, and interest in the Software, including but not limited to source code, architecture, design systems, algorithms, UI/UX, and documentation, remain exclusively with the Author.
+
+The ARSA name, logo, and branding are trademarks of the Author and may not be used without prior written consent.
+
+6. THIRD-PARTY COMPONENTS
+
+The Software may include third-party open-source components governed by their respective licenses. Such components remain subject to their original licenses.
+
+Nothing in this License shall be interpreted as affecting the rights granted under those third-party licenses.
+
+7. DATA AND PRIVACY
+
+Use of the Software may involve collection of usage data, playback history, and system information as described in the Privacy Policy hosted at:
+
+https://aryavl.com/privacy-policy
+
+Such data is used solely for improving performance, recommendations, and user experience.
+
+8. TERMINATION
+
+This License is effective until terminated.
+
+The Author may terminate this License immediately if the User violates any provision of this Agreement.
+
+Upon termination, the User must cease all use of the Software and destroy all copies in their possession.
+
+Sections relating to ownership, intellectual property, liability, and restrictions shall survive termination.
+
+9. DISCLAIMER OF WARRANTIES
+
+The Software is provided “AS IS” and “AS AVAILABLE”, without warranties of any kind, express or implied, including but not limited to merchantability, fitness for a particular purpose, and non-infringement.
+
+The Author does not guarantee uninterrupted operation, error-free performance, or compatibility across all devices.
+
+10. LIMITATION OF LIABILITY
+
+To the maximum extent permitted by law, the Author shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of data, profits, or business interruption, arising from the use or inability to use the Software.
+
+11. GOVERNING LAW
+
+This Agreement shall be governed by and construed in accordance with the laws of India.
+
+Any disputes shall be subject to the exclusive jurisdiction of courts located in India.
+
+12. CONTACT
+
+For licensing requests, permissions, or legal notices:
+
+Author: Arya VL
+Website: https://aryavl.com
+Email: connect@aryavl.com
+
+13. ENTIRE AGREEMENT
+
+This License constitutes the entire agreement between the User and the Author regarding the Software and supersedes any prior agreements or understandings.
+
+
+Copyright (c) 2026 Arya VL. All Rights Reserved.
