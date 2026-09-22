@@ -1340,32 +1340,10 @@ fun ListenTogetherDialog(
                             }
                             if (isHost) {
                                 Spacer(modifier = Modifier.height(12.dp))
-                                val inviteLink = remember(room.roomCode) {
-                                    "https://vivimusic-listen-together.onrender.com/listen?code=${room.roomCode}"
-                                }
                                 Row(
                                     verticalAlignment = Alignment.CenterVertically,
                                     horizontalArrangement = Arrangement.Center
                                 ) {
-                                    FilledTonalButton(
-                                        onClick = {
-                                            val clipboard = context.getSystemService(Context.CLIPBOARD_SERVICE) as android.content.ClipboardManager
-                                            val clip = android.content.ClipData.newPlainText("Listen Together Link", inviteLink)
-                                            clipboard.setPrimaryClip(clip)
-                                            Toast.makeText(context, R.string.copied_to_clipboard, Toast.LENGTH_SHORT).show()
-                                        }
-                                    ) {
-                                        Icon(
-                                            painter = painterResource(R.drawable.link),
-                                            contentDescription = stringResource(R.string.copy_link),
-                                            modifier = Modifier.size(18.dp)
-                                        )
-                                        Spacer(modifier = Modifier.width(8.dp))
-                                        Text(stringResource(R.string.copy_link))
-                                    }
-
-                                    Spacer(modifier = Modifier.width(8.dp))
-
                                     FilledTonalButton(
                                         onClick = {
                                             val clipboard = context.getSystemService(Context.CLIPBOARD_SERVICE) as android.content.ClipboardManager

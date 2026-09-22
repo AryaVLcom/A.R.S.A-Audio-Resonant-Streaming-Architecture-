@@ -125,6 +125,14 @@
                 <data android:scheme="https" android:host="listen.aryavl.com" />
             </intent-filter>
 
+            <!-- ARSA Custom Scheme Links (arsa://) -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="arsa" />
+            </intent-filter>
+
             <!-- Youtube filter -->
             <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />

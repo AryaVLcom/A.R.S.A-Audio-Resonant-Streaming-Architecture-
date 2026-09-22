@@ -400,25 +400,6 @@ fun FloatingMiniPlayer(
                     )
                 }
 
-                if (miniPlayerWaveform) {
-                    Spacer(Modifier.width(8.dp))
-                    ScrollingWaveformSeekBar(
-                        progress = { playbackFraction.value },
-                        onSeek = { frac ->
-                            val duration = playerConnection.player.duration
-                            if (duration > 0) {
-                                playerConnection.player.seekTo((frac * duration).toLong())
-                            }
-                        },
-                        playedColor = contentColor,
-                        trackColor = contentColor.copy(alpha = 0.3f),
-                        seed = waveformSeed,
-                        visibleBars = 14,
-                        modifier = Modifier
-                            .width(64.dp)
-                            .height(22.dp),
-                    )
-                }
 
                 Spacer(Modifier.width(10.dp))
 

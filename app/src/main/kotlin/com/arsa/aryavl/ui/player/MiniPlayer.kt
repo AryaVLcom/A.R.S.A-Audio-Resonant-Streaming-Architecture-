@@ -468,29 +468,16 @@ private fun NewMiniPlayer(
 
                 Spacer(modifier = Modifier.width(12.dp))
 
-                // Center: song info + seek bar below
-                Column(modifier = Modifier.weight(1f)) {
+                // Center: song info
+                Column(
+                    modifier = Modifier.weight(1f),
+                    verticalArrangement = Arrangement.Center
+                ) {
                     NewMiniPlayerSongInfo(
                         mediaMetadata = mediaMetadata,
                         onSurfaceColor = onSurfaceColor,
                         errorColor = errorColor
                     )
-                    if (miniPlayerWaveform) {
-                        Spacer(modifier = Modifier.height(2.dp))
-                        ScrollingWaveformSeekBar(
-                            progress = { waveFraction.value },
-                            onSeek = { f ->
-                                val d = playerConnection.player.duration
-                                if (d > 0L) playerConnection.player.seekTo((f * d).toLong())
-                            },
-                            playedColor = waveColor,
-                            trackColor = waveColor.copy(alpha = 0.25f),
-                            seed = mediaMetadata?.id?.hashCode() ?: 0,
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .height(28.dp),
-                        )
-                    }
                 }
 
                 Spacer(modifier = Modifier.width(8.dp))
@@ -608,39 +595,7 @@ private fun NewMiniPlayerPlayButton(
 
     Box(
         contentAlignment = Alignment.Center,
-        modifier = Modifier
-            .size(buttonSize)
-            .drawWithContent {
-                drawContent()
-                // Draw progress arc - this reads progressState.progress during draw phase only
-                val progress = progressState.progress
-                val stroke = Stroke(width = strokeWidth.toPx(), cap = StrokeCap.Round)
-                val startAngle = -90f
-                val sweepAngle = 360f * progress
-                val diameter = size.minDimension
-                val topLeft = Offset((size.width - diameter) / 2, (size.height - diameter) / 2)
-                
-                // Draw track
-                drawArc(
-                    color = trackColor,
-                    startAngle = 0f,
-                    sweepAngle = 360f,
-                    useCenter = false,
-                    topLeft = topLeft,
-                    size = Size(diameter, diameter),
-                    style = stroke
-                )
-                // Draw progress
-                drawArc(
-                    color = primaryColor,
-                    startAngle = startAngle,
-                    sweepAngle = sweepAngle,
-                    useCenter = false,
-                    topLeft = topLeft,
-                    size = Size(diameter, diameter),
-                    style = stroke
-                )
-            }
+        modifier = Modifier.size(buttonSize)
     ) {
         Box(
             contentAlignment = Alignment.Center,
@@ -927,18 +882,6 @@ private fun LegacyMiniPlayer(
                 } else baseModifier
             }
     ) {
-        // Progress bar - uses drawWithContent to avoid recomposition
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .height(2.dp)
-                .align(Alignment.BottomCenter)
-                .drawWithContent {
-                    val progress = progressState.progress
-                    drawRect(trackColor)
-                    drawRect(primaryColor, size = Size(size.width * progress, size.height))
-                }
-        )
 
         Row(
             verticalAlignment = Alignment.CenterVertically,

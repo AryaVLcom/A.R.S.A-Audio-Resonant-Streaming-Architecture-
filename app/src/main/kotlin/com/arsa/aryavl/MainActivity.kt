@@ -2462,31 +2462,62 @@ class MainActivity : ComponentActivity() {
             return
         }
 
-        // Handle ARSA custom share links: https://listen.aryavl.com
-        if (uri.host?.equals("listen.aryavl.com", ignoreCase = true) == true) {
-            val firstSegment = uri.pathSegments.firstOrNull()
-            if (firstSegment == "playlist") {
-                val playlistId = uri.pathSegments.getOrNull(1) ?: uri.getQueryParameter("list")
+        // Handle ARSA custom share links: https://listen.aryavl.com or arsa://...
+        val isArsaHost = uri.host?.equals("listen.aryavl.com", ignoreCase = true) == true
+        val isArsaScheme = uri.scheme?.equals("arsa", ignoreCase = true) == true
+        if (isArsaHost || isArsaScheme) {
+            val isPlaylist = uri.pathSegments.firstOrNull() == "playlist" ||
+                    (isArsaScheme && uri.host?.equals("playlist", ignoreCase = true) == true)
+            if (isPlaylist) {
+                val playlistId = if (isArsaScheme && uri.host?.equals("playlist", ignoreCase = true) == true) {
+                    uri.pathSegments.firstOrNull() ?: uri.getQueryParameter("list")
+                } else {
+                    uri.pathSegments.getOrNull(1) ?: uri.getQueryParameter("list")
+                }
                 if (!playlistId.isNullOrBlank()) {
                     navController.navigate("online_playlist/$playlistId") { launchSingleTop = true }
                     return
                 }
-            } else if (!firstSegment.isNullOrBlank()) {
-                val trackId = firstSegment
-                coroutineScope.launch(Dispatchers.IO) {
-                    YouTube.queue(listOf(trackId)).onSuccess { queue ->
-                        val firstItem = queue.firstOrNull()
-                        withContext(Dispatchers.Main) {
-                            playerConnection?.playQueue(
-                                YouTubeQueue(
-                                    WatchEndpoint(videoId = firstItem?.id ?: trackId),
-                                    firstItem?.toMediaMetadata()
-                                )
-                            )
-                        }
-                    }.onFailure { reportException(it) }
+            } else {
+                val trackId = if (isArsaScheme && uri.host != null && !uri.host.equals("listen.aryavl.com", ignoreCase = true)) {
+                    if (uri.host.equals("track", ignoreCase = true)) {
+                        uri.pathSegments.firstOrNull()
+                    } else {
+                        uri.host
+                    }
+                } else {
+                    uri.pathSegments.firstOrNull()
                 }
-                return
+
+                if (!trackId.isNullOrBlank()) {
+                    coroutineScope.launch(Dispatchers.IO) {
+                        YouTube.queue(listOf(trackId)).fold(
+                            onSuccess = { queue ->
+                                val firstItem = queue.firstOrNull()
+                                withContext(Dispatchers.Main) {
+                                    playerConnection?.playQueue(
+                                        YouTubeQueue(
+                                            WatchEndpoint(videoId = firstItem?.id ?: trackId),
+                                            firstItem?.toMediaMetadata()
+                                        )
+                                    )
+                                }
+                            },
+                            onFailure = { err ->
+                                reportException(err)
+                                withContext(Dispatchers.Main) {
+                                    playerConnection?.playQueue(
+                                        YouTubeQueue(
+                                            WatchEndpoint(videoId = trackId),
+                                            null
+                                        )
+                                    )
+                                }
+                            }
+                        )
+                    }
+                    return
+                }
             }
         }
 

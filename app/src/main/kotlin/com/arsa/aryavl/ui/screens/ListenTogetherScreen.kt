@@ -686,18 +686,6 @@ private fun RoomStatusCard(
                 label = stringResource(R.string.copy_code),
                 onClick = { copy("Room Code", roomCode) }
             )
-            if (isHost) {
-                RoomAction(
-                    icon = R.drawable.link,
-                    label = stringResource(R.string.copy_link),
-                    onClick = {
-                        // Deep link into the app, not a hardcoded web host. The
-                        // previous link pointed at the old Render server, which
-                        // is not even where the room lives any more.
-                        copy("Listen Together Link", "vivimusic://listen?code=$roomCode")
-                    }
-                )
-            }
         }
     }
 }

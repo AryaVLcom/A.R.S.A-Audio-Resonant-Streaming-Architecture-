@@ -232,18 +232,6 @@ fun AppleMiniPlayer(
             )
 
             // Bottom Progress Bar
-            Box(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .height(3.dp)
-                    .align(Alignment.BottomCenter)
-                    .drawWithContent {
-                        val progress = progressState.progress
-                        val trackColor = outlineColor.copy(alpha = 0.2f)
-                        drawRect(trackColor)
-                        drawRect(primaryColor, size = Size(size.width * progress, size.height))
-                    }
-            )
 
             Row(
                 verticalAlignment = Alignment.CenterVertically,
