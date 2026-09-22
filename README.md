@@ -1,266 +1,248 @@
 <div align="center">
+  <h1>A.R.S.A</h1>
+  <h3>A.R.S.A is an open-source, Liquid Glass music player for Android</h3>
 
-<img src="https://app.aryavl.com/assets/assets/images/arsa-logo.6b8664469176a1cbc68b69165e007f8d.png" width="150" alt="A.R.S.A Logo" />
+  <p>
+    <a href="https://github.com/cosmictaserdev-creator/A.R.S.A/releases/tag/v1.5.2">
+      <img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F%20DOWNLOAD%20A.R.S.A%201.5.2-4CAF50?style=for-the-badge&logo=android&logoColor=white" alt="Download A.R.S.A 1.5.2">
+    </a>
+  </p>
+  <p>
+    <b><a href="https://github.com/cosmictaserdev-creator/A.R.S.A/releases/tag/v1.5.2">⬇️ DOWNLOAD A.R.S.A 1.5.2</a></b>
+    — Latest release. Works on Android 8.0+.
+  </p>
 
-# A.R.S.A
-### Audio Resonant Streaming Architecture
+  <h3>📸 Screenshots</h3>
+  <div>
+    <img src="docs/screenshots/Screenshot_20260802_202411_A.R.S.A-portrait.png" width="30%" alt="A.R.S.A Liquid Glass music player now playing screen with frosted glass controls">
+    <img src="docs/screenshots/Screenshot_20260802_205400_A.R.S.A-portrait.png" width="30%" alt="A.R.S.A Android music player home screen with glass chrome">
+    <img src="docs/screenshots/Screenshot_20260802_205417_A.R.S.A-portrait.png" width="30%" alt="A.R.S.A music player library view with Liquid Glass blur">
+    <br>
+    <img src="docs/screenshots/Screenshot_20260802_205427_A.R.S.A-portrait.png" width="30%" alt="A.R.S.A music player search screen with frosted glass UI">
+    <img src="docs/screenshots/mobile%20%283%29-portrait.png" width="30%" alt="A.R.S.A Liquid Glass music player UI showing the frosted player screen">
+    <img src="docs/screenshots/mobile%20%284%29-portrait.png" width="30%" alt="A.R.S.A music player now playing screen with artwork and glass controls">
+    <br>
+    <img src="docs/screenshots/mobile%20%285%29-portrait.png" width="30%" alt="A.R.S.A music player queue screen with Liquid Glass surfaces">
+    <img src="docs/screenshots/mobile%20%287%29-portrait.png" width="30%" alt="A.R.S.A Android music player synced lyrics screen">
+    <img src="docs/screenshots/mobile%20%289%29-portrait.png" width="30%" alt="A.R.S.A music player album page with refractive glass chrome">
+    <br>
+    <img src="docs/screenshots/mobile%20%2810%29-portrait.png" width="30%" alt="A.R.S.A music player settings screen with frosted glass panels">
+    <img src="docs/screenshots/mobile%20%2811%29-portrait.png" width="30%" alt="A.R.S.A music player artist page with glass design">
+    <img src="docs/screenshots/mobile%20%2812%29-portrait.png" width="30%" alt="A.R.S.A music player Android Auto playback controls">
+    <br>
+    <img src="docs/screenshots/mobile%20%2813%29-portrait.png" width="30%" alt="A.R.S.A music player equalizer with Liquid Glass UI">
+    <img src="docs/screenshots/lyrics%20screen-portrait.png" width="30%" alt="A.R.S.A music player karaoke-style lyrics with word-by-word highlighting">
+    <img src="docs/screenshots/users%20%282%29-portrait.png" width="30%" alt="A.R.S.A Listen Together shared playback with friends">
+    <br>
+    <img src="docs/screenshots/tabview%20%281%29-landscape.png" width="30%" alt="A.R.S.A Liquid Glass music player tablet home view">
+    <img src="docs/screenshots/tabview%20%282%29-landscape.png" width="30%" alt="A.R.S.A music player tablet library browsing">
+    <img src="docs/screenshots/tabview%20%283%29-landscape.png" width="30%" alt="A.R.S.A music player tablet now playing screen">
+    <br>
+    <img src="docs/screenshots/users%20%283%29-portrait.png" width="30%" alt="A.R.S.A Discord Rich Presence showing what you are listening to">
+    <img src="docs/screenshots/users%20%285%29-landscape.png" width="30%" alt="A.R.S.A music player shared sessions and community">
+  </div>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=2600&pause=900&color=8B5CF6&center=true&vCenter=true&width=860&lines=Modern+Android+Music+Streaming+App;React+Native+%2B+Expo;Liquid-Glass+Inspired+Interface;Background+Playback+Support;Built+for+Smooth+Listening" alt="Typing SVG" />
-
-<br>
-
-<div>
-  <a href="https://github.com/AryaVLcom/A.R.S.A-Audio-Resonent-Streaming-Architecture-/releases/download/Release/A.R.S.A.V2.apk">
-    <img src="https://img.shields.io/badge/Download-APK-8B5CF6?style=for-the-badge&logo=android&logoColor=white" alt="Download APK" />
-  </a>
-  <a href="https://app.aryavl.com">
-    <img src="https://img.shields.io/badge/Live-Preview-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Preview" />
-  </a>
-  <a href="https://aryavl.com/privacy-policy">
-    <img src="https://img.shields.io/badge/Privacy-Policy-111827?style=for-the-badge&logo=shield&logoColor=white" alt="Privacy Policy" />
-  </a>
+  <p>
+    <a href="https://github.com/cosmictaserdev-creator/A.R.S.A/releases">
+      <img src="https://img.shields.io/github/downloads/cosmictaserdev-creator/A.R.S.A/total?style=for-the-badge&color=blue" alt="Downloads">
+    </a>
+    <a href="LICENSE">
+      <img src="https://img.shields.io/github/license/cosmictaserdev-creator/A.R.S.A?style=for-the-badge" alt="License">
+    </a>
+    <a href="https://discord.gg/Ejeb4cmzfd">
+      <img src="https://img.shields.io/badge/Discord-Join%20Us-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord">
+    </a>
+    <a href="https://ko-fi.com/cosmictaser">
+      <img src="https://img.shields.io/badge/Ko--fi-Support%20Us-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white" alt="Support on Ko-fi">
+    </a>
+    <a href="https://cosmictaser.de5.net">
+      <img src="https://img.shields.io/badge/A.R.S.A-Website-8A2BE2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit A.R.S.A Website">
+    </a>
+  </p>
+  <p>
+    ☕ <b>Support:</b> <a href="https://ko-fi.com/cosmictaser">Ko-fi</a> &nbsp;•&nbsp;
+    💸 <b>UPI:</b> <code>cosmictaser@okicici</code> &nbsp;•&nbsp;
+    🌐 <b>Website:</b> <a href="https://cosmictaser.de5.net">cosmictaser.de5.net</a>
+  </p>
 </div>
 
-<br>
+<hr>
 
+<h2>🎵 About A.R.S.A</h2>
 
+<p><b>A.R.S.A</b> is a free, open-source music player for Android that streams from YouTube Music, built with <b>Jetpack Compose</b> on a <b>Media3</b> ExoPlayer core. The UI is a custom <b>Liquid Glass</b> design system — frosted, refractive surfaces, iOS-style bouncy scrolling, and progressive blur chrome — instead of stock Material widgets.</p>
 
-<br>
+<p>A.R.S.A started as a fork of <a href="https://github.com/vivizzz007/vivi-music">vivi-music</a>; see <a href="#-credits">Credits</a> below.</p>
 
-<img src="https://i.ibb.co/vy5z50k/file-00000000d6b0720882288e9e1b6929d6.png" width="100%" alt="A.R.S.A Hero Banner" />
+<hr>
 
-</div>
+<h2>✨ Features</h2>
 
----
-
-## What is A.R.S.A?
-
-**A.R.S.A** is a modern Android music streaming application built with React Native and Expo. It focuses on smooth playback, a polished visual style, and a clean interface built around actual listening instead of stuffing the screen with random junk nobody asked for.
-
-The app combines:
-* Background audio playback
-* Streaming-focused architecture
-* A liquid-glass inspired interface
-* Animated transitions and gradients
-* A public web preview
-* Direct APK distribution through GitHub Releases
-
----
-
-## Live Preview
-
-<div align="center">
-  <a href="https://app.aryavl.com">
-    <img src="https://img.shields.io/badge/Open-Web_Preview-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Open Web Preview" />
-  </a>
-  
-  <br><br>
-
-
-</div>
-
----
-
-## Why this app exists
-
-> Most music apps eventually turn into subscription traps with cluttered UIs, useless recommendation spam, and interface decisions that feel like a dare. **A.R.S.A** is built to stay focused on the core experience: open the app, find music, play it, and keep listening.
-
----
-
-## Features
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3>🎧 Audio Playback</h3>
+<table align="center" width="100%">
+  <tr valign="top">
+    <td width="50%">
+      <h3>🧊 Liquid Glass UI</h3>
       <ul>
-        <li>Background playback support</li>
-        <li>Queue and track handling</li>
-        <li>Streaming-focused audio flow</li>
-        <li>Playback session support</li>
+        <li><b>Real backdrop blur:</b> frosted glass chrome (nav bar, floating buttons, sheets) that actually samples and refracts the content behind it, not a flat translucent color.</li>
+        <li><b>iOS-style motion:</b> bouncy rubber-band overscroll, blurred page transitions, springy nav puck.</li>
+        <li><b>Material You:</b> adaptive colors pulled from the currently playing artwork.</li>
       </ul>
     </td>
-    <td width="33%" valign="top">
-      <h3>✨ Interface</h3>
+    <td width="50%">
+      <h3>🎵 Streaming</h3>
       <ul>
-        <li>Liquid-glass inspired design</li>
-        <li>Blur and gradient styling</li>
-        <li>Animated transitions</li>
-        <li>Mobile-first layout</li>
+        <li><b>Full YT Music catalog:</b> ad-free streaming and background playback with full notification/lock-screen controls.</li>
+        <li><b>Offline downloads:</b> cache tracks locally with smart storage management.</li>
+        <li><b>Lossless/high-quality audio</b> and a built-in equalizer.</li>
       </ul>
     </td>
-    <td width="33%" valign="top">
-      <h3>📦 Distribution</h3>
+  </tr>
+  <tr valign="top">
+    <td width="50%">
+      <h3>📝 Lyrics & Social</h3>
       <ul>
-        <li>GitHub Releases APK</li>
-        <li>Public web preview</li>
-        <li>Privacy policy page</li>
-        <li>Easy install flow</li>
+        <li><b>Synced, karaoke-style lyrics</b> with word-by-word highlighting.</li>
+        <li><b>Discord Rich Presence:</b> show what you're listening to on your profile.</li>
+        <li><b>Listen Together:</b> sync playback with friends in real time.</li>
+      </ul>
+    </td>
+    <td width="50%">
+      <h3>🛡️ Privacy & Updates</h3>
+      <ul>
+        <li><b>Zero telemetry:</b> no trackers, no analytics, fully local library and preferences.</li>
+        <li><b>Built-in updater:</b> in-app update checks and changelogs, no third-party store required.</li>
       </ul>
     </td>
   </tr>
 </table>
 
----
+<hr>
 
-## Tech Stack
+<h2>🏗️ Architecture</h2>
+
+<p>Quick map for contributors — see <a href="CONTRIBUTING.md">CONTRIBUTING.md</a> for the full guide.</p>
+
+<ul>
+  <li><b>UI:</b> Jetpack Compose, MVVM (<code>ui/screens</code> + <code>viewmodels</code>), navigated via <code>ui/screens/NavigationBuilder.kt</code>.</li>
+  <li><b>Liquid Glass:</b> <code>ui/component/GlassEffect.kt</code> exposes <code>Modifier.liquidGlass(...)</code>, built on a vendored, source-included copy of <a href="https://github.com/Kyant0/backdrop">Kyant0/backdrop</a> under <code>ui/component/backdrop/</code>. A <code>Backdrop</code> (usually a <code>rememberLayerBackdrop()</code> attached via <code>Modifier.layerBackdrop(...)</code> to some subtree) captures real pixels; any surface holding a reference to that same backdrop can sample, blur, and refract it through <code>drawBackdrop(...)</code>. The floating nav bar, circular back/share buttons, and sheets are all just glass surfaces sampling a nearby backdrop this way.</li>
+  <li><b>Playback:</b> Media3 <code>ExoPlayer</code> service in <code>playback/MusicService.kt</code>.</li>
+  <li><b>Data:</b> Room database (<code>db/</code>) for the local library, DataStore for preferences (<code>utils/DataStore.kt</code>, <code>constants/PreferenceKeys.kt</code>).</li>
+  <li><b>YouTube Music access:</b> the <code>innertube</code> module — an unofficial InnerTube API client, kept separate from the app module.</li>
+  <li><b>Updater:</b> <code>vivimusic/updater/</code> checks GitHub Releases for new versions and handles in-app APK download/install (FOSS/GMS build flavors behave slightly differently — see <code>BuildConfig.CAST_AVAILABLE</code>).</li>
+</ul>
+
+<hr>
+
+<h2>🚗 Android Auto Setup</h2>
+
+<p>If A.R.S.A doesn't appear in Android Auto:</p>
+
+<ol>
+  <li>Open <strong>Android Auto</strong> on your phone</li>
+  <li>Tap the <strong>hamburger menu</strong> (three lines) and go to <strong>Settings</strong></li>
+  <li>Scroll to the bottom and tap the <strong>version number</strong> multiple times to enable Developer Settings</li>
+  <li>Tap the <strong>three dots menu</strong> (⋮) at the top-right</li>
+  <li>Select <strong>Developer settings</strong></li>
+  <li>Enable <strong>Unknown sources</strong></li>
+  <li>Restart Android Auto and connect to your car</li>
+</ol>
+
+<hr>
+
+<h2>🤝 Contributing</h2>
+
+<p>Contributions are welcome — bug reports, feature requests, and code. Start with <a href="CONTRIBUTING.md">CONTRIBUTING.md</a> for the project layout, build setup, and PR checklist. Short version:</p>
+
+<ol>
+  <li>Fork the repository</li>
+  <li>Create your feature branch (<code>git checkout -b feature/AmazingFeature</code>)</li>
+  <li>Commit your changes (<code>git commit -m 'Add some AmazingFeature'</code>)</li>
+  <li>Push to the branch (<code>git push origin feature/AmazingFeature</code>)</li>
+  <li>Open a Pull Request</li>
+</ol>
+
+<hr>
+
+<h2>🛡️ Privacy & Data Collection</h2>
+
+<p>At <strong>A.R.S.A</strong>, your privacy is our top priority. We believe that your music and data belong exclusively to you.</p>
+
+<ul>
+  <li><strong>Zero Data Collection:</strong> we do <strong>not</strong> collect, store, or share any of your personal information, usage habits, or listening history.</li>
+  <li><strong>100% Local:</strong> all your settings, downloaded tracks, and offline caches are stored securely on your device.</li>
+  <li><strong>No Tracking:</strong> no hidden trackers, analytics, or background services monitoring your activity.</li>
+</ul>
+
+<hr>
+
+<h2>📜 Disclaimer</h2>
+
+<p>This project and its contents are <strong>not affiliated with, funded, authorized, endorsed by, or in any way associated with</strong> YouTube, Google LLC, or any of their affiliates and subsidiaries.</p>
+
+<p>Any trademark, service mark, trade name, or other intellectual property rights used in this project are owned by their respective owners.</p>
+
+<p><strong>A.R.S.A</strong> is an independent project created for educational and personal use purposes.</p>
+
+<hr>
+
+<h2>📄 License</h2>
+<p>This project is licensed under the terms specified in the <a href="LICENSE">LICENSE</a> file (GPL-3.0).</p>
+
+<hr>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=react,typescript,nodejs,androidstudio,github,git,vscode" alt="Tech stack icons" />
+  <table border="0" cellpadding="15" cellspacing="0" width="85%">
+    <tr>
+      <td align="center">
+        <h3>💬 Community & Support</h3>
+        <p>Connect with other listeners, suggest features, report bugs, and stay updated on releases.</p>
+        <br>
+        <a href="https://discord.gg/Ejeb4cmzfd">
+          <img src="https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord">
+        </a>
+        <br><br>
+        <sub>
+          <a href="https://github.com/cosmictaserdev-creator/A.R.S.A/issues">🐞 Report Bugs</a> &nbsp;•&nbsp;
+          <a href="https://github.com/cosmictaserdev-creator/A.R.S.A/discussions">💬 Discussions</a> &nbsp;•&nbsp;
+          <a href="https://github.com/cosmictaserdev-creator/A.R.S.A/releases">🚀 Releases</a>
+        </sub>
+      </td>
+    </tr>
+  </table>
 </div>
 
-<br>
-
-| Technology | Purpose |
-| :--- | :--- |
-| **React Native** | Core mobile framework |
-| **Expo** | Build and deployment workflow |
-| **TypeScript** | Application structure |
-| **Expo AV** | Audio playback support |
-| **React Native Track Player** | Background playback |
-| **Expo Blur** | Glassmorphism effects |
-| **Expo Router** | Routing |
-| **React Navigation** | Navigation structure |
-
----
-
-## Installation
+<hr>
 
 <div align="center">
-  <h3>Android APK</h3>
-  <a href="https://github.com/AryaVLcom/A.R.S.A-Audio-Resonent-Streaming-Architecture-/releases/download/Release/A.R.S.A.V2.apk">
-    <img src="https://img.shields.io/badge/Download-Latest_APK-8B5CF6?style=for-the-badge&logo=android&logoColor=white" alt="Download latest APK" />
-  </a>
-</div>
 
-### Install Steps
+  <h2>🙏 Credits</h2>
 
-1. Download the APK.
-2. Open the downloaded file.
-3. Allow installs from your browser or file manager if Android asks.
-4. Install the app.
-5. Launch A.R.S.A.
+  <p>A.R.S.A is developed and maintained by <a href="https://github.com/cosmictaserdev-creator">Aryan (CosmicTaser)</a>. See <a href="https://cosmictaser.de5.net">cosmic-taser.netlify.app</a> for the portfolio.</p>
 
-*Android still makes sideloading feel like a criminal investigation, but that is apparently tradition now.*
+  <table border="0" cellpadding="10" cellspacing="0" width="90%">
+    <tr valign="top">
+      <td width="40%" align="left">
+        <b>💡 Built On</b>
+        <ul>
+          <li><strong><a href="https://github.com/vivizzz007/vivi-music">vivi-music</a></strong> by <strong>Vividh P Ashokan</strong> — the project A.R.S.A was forked from.</li>
+          <li>The <strong>Apple Music Player V17</strong> full-screen player style (Settings → Player Theme) is ported from <a href="https://github.com/vivizzz007/vivi-music">vivi-music</a>'s Apple Music player UI, GPL-3.0.</li>
+        </ul>
+      </td>
+      <td width="60%" align="left">
+        <b>🎖️ Foundational Projects</b>
+        <ul>
+          <li><strong><a href="https://github.com/Kyant0/backdrop">Kyant0/backdrop</a></strong> — the real-time backdrop blur/refraction library the Liquid Glass UI is built on.</li>
+          <li><strong><a href="https://github.com/better-lyrics/better-lyrics">Better Lyrics</a></strong> and <strong><a href="https://github.com/maxrave-dev/SimpMusic">SimpMusic</a></strong> — synced lyrics.</li>
+          <li><strong><a href="https://github.com/ibratabian17/YouLyPlus">YouLyPlus</a></strong> — in-app lyrics styling.</li>
+          <li><strong><a href="https://github.com/monochrome-music/monochrome">Monochrome</a></strong> — the animated visualizer canvas.</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
 
----
-
-## Distribution & Release Information
-
-A.R.S.A is a closed-source project. The public repository is used for APK releases, public distribution, release tracking, preview access, and project information. Source code is not publicly distributed.
-
-| Type | Availability |
-| :--- | :--- |
-| **Android APK** | Public |
-| **Web Preview** | Public |
-| **Source Code** | Private |
-| **Internal Build System** | Private |
-
-### Internal Directory Structure
-
-```text
-A.R.S.A/
-├── app/
-├── assets/
-├── components/
-├── constants/
-├── hooks/
-├── services/
-├── utils/
-├── android/
-├── web/
-├── package.json
-└── README.md
-```
-
----
-
-## Quick Links & Privacy
-
-<div align="center">
-  <a href="https://app.aryavl.com">
-    <img src="https://img.shields.io/badge/Live_Preview-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white">
-  </a>
-  <a href="https://github.com/AryaVLcom/A.R.S.A-Audio-Resonent-Streaming-Architecture-/releases">
-    <img src="https://img.shields.io/badge/APK_Releases-8B5CF6?style=for-the-badge&logo=github&logoColor=white">
-  </a>
-  <a href="https://aryavl.com/privacy-policy">
-    <img src="https://img.shields.io/badge/Privacy_Policy-111827?style=for-the-badge&logo=shield&logoColor=white">
-  </a>
-</div>
-
----
-
-## Interactive Visuals
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake animation" />
-  
-  <br><br>
-
-  <img src="https://capsule-render.vercel.app/api?type=venom&height=260&text=A.R.S.A&fontSize=70&color=0:8B5CF6,100:2563EB&stroke=FFFFFF&fontColor=FFFFFF&animation=fadeIn" width="100%" alt="Animated banner" />
-  
-  <br><br>
-
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=28&duration=1800&pause=700&color=8B5CF6&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=120&lines=Audio+Resonant+Streaming+Architecture;Modern+Music+Streaming+Experience;Liquid+Glass+Inspired+Visual+Systems;Built+for+Playback+%2B+Visual+Immersion" alt="Animated typing" />
-</div>
-
----
-
-## Animated Activity
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=AryaVLcom&theme=tokyonight&no-frame=true&row=1&column=7" width="100%" alt="Trophies" />
-  
-  <br><br>
-
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AryaVLcom&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Activity Graph" />
-  
-  <br><br>
-
-  <img src="https://streak-stats.demolab.com?user=AryaVLcom&theme=tokyonight&hide_border=true" width="100%" alt="Streak Stats" />
-</div>
-
----
-
-## Animated Stats
-
-<div align="center">
-  <img height="190em" src="https://github-readme-stats.vercel.app/api?username=AryaVLcom&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="Stats" />
-  <img height="190em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AryaVLcom&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-  
-  <br><br>
-
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AryaVLcom&theme=tokyonight" width="100%" alt="Profile Details" />
-</div>
-
----
-
-## Final Sequence
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,100:2563EB&height=3" width="100%" alt="Divider" />
-  
-  <br><br>
-
-  <img src="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder" alt="Joke" />
-  
-  <br><br>
-
-  <img src="https://capsule-render.vercel.app/api?type=transparent&height=120&text=A.R.S.A&fontColor=FFFFFF&fontSize=48&animation=fadeIn" alt="A.R.S.A Logo Text" />
-</div>
-
----
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=8B5CF6&height=140&section=footer" width="100%" alt="Footer Wave" />
-</div>
-
-<div align="center">
-  
-**A.R.S.A** <br>
-*Audio Resonant Streaming Architecture*
-
-Built with React Native, Expo, and dangerous amounts of sleep deprivation.
-
+  <br>
+  <p align="center">The open-source community for tools, libraries, and APIs that make this project possible.</p>
+  <hr width="60%">
+  <p align="center"><strong>Made with ❤️ for music lovers everywhere</strong></p>
+  <p align="center">⭐ Star this repo if you enjoy A.R.S.A!</p>
 </div>

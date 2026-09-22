@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: arsa-listen-together
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ROOM_TTL_HOURS
+        value: "6"
+      - key: MAX_MEMBERS
+        value: "20"

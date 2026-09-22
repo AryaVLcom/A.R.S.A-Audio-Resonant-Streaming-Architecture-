@@ -1,0 +1,24 @@
+{
+  "name": "arsa-listen-together-server",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node test-protocol.mjs http://localhost:3000",
+    "test:full": "node test-suite.mjs http://localhost:3000",
+    "cf:dev": "wrangler dev",
+    "cf:deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250801.0",
+    "typescript": "^5.6.0",
+    "wrangler": "^3.80.0"
+  }
+}
