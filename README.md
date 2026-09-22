@@ -23,12 +23,7 @@
 
 <br>
 
-<div>
-  <img src="https://img.shields.io/github/stars/AryaVLcom/A.R.S.A-Audio-Resonent-Streaming-Architecture-?style=flat-square&color=8B5CF6" alt="GitHub stars" />
-  <img src="https://img.shields.io/github/forks/AryaVLcom/A.R.S.A-Audio-Resonent-Streaming-Architecture-?style=flat-square&color=2563EB" alt="GitHub forks" />
-  <img src="https://img.shields.io/github/license/AryaVLcom/A.R.S.A-Audio-Resonent-Streaming-Architecture-?style=flat-square&color=9333EA" alt="License" />
-  <img src="https://img.shields.io/github/repo-size/AryaVLcom/A.R.S.A-Audio-Resonent-Streaming-Architecture-?style=flat-square&color=0EA5E9" alt="Repo size" />
-</div>
+
 
 <br>
 
@@ -61,9 +56,7 @@ The app combines:
   
   <br><br>
 
-  <a href="https://app.aryavl.com">
-    <img src="https://i.ibb.co/zVhCkbv4/Screenshot-2026-05-24-11-54-03-87-f4b738ca4cb9fe4d79320a1c1356661e.jpg" width="280" alt="A.R.S.A Screenshot" />
-  </a>
+
 </div>
 
 ---
